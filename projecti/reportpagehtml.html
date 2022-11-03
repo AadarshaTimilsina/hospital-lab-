@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reportcss.css">
+
+</head>
+<body>
+    <h1 class="heading">Welcome to Laboratary Management System</h1>
+    <div class="navigationbar">
+        <a class="active" href="1stpagehtml.html">Add Patient Info</a>
+        <a href="viewpatienthtml.html">View Patient Info</a>
+        <a href="reportpagehtml.html"> Report</a>
+    </div>
+    <form action="index1.php">
+        <div class="container2">
+            <label> Patient Id:  </label>         
+            <input type="text" name="patientid" id="patientid" /> <br> <br>
+            <label> Fisrt Name :  </label>         
+            <input type="text" name="patientid" id="patientid" /> <br> <br>
+            <label> Last Name:  </label>         
+            <input type="text" name="patientid" id="patientid" /> <br> <br>
+            <label> Type Of Check-up:  </label>         
+            <input type="text" name="checkup" id="checkup"/> <br> <br>
+            <label> Report File:  </label>         
+            <input type="file" id="myFile" name="filename">
+            <label> Report Statement:  </label>         
+            <input type="text" name="report" id="report"/> <br> <br>
+            <a href="1stpagehtml.html" class="submit">  
+                <!-- <button>Submit</button>   -->
+                Submit
+              </a>
+              <a class="print_link" href="#" onClick="window.print()">Print this page</a>
+              
+        </div>
+    
+        
+    </form>
+    <script src="viewpatientjs.js"></script>
+    
+</body>
+
+</html>

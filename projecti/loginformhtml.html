@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="loginpagecss.css">
+</head>
+<body>
+    <div class="centre">
+        <h1>Login Form</h1>
+        <form name="myform" method="post" action="C:\Users\DELL\Desktop\projecti\1stpagehtml.html" onsubmit="return validateform()" ></form>
+            <div class="Username_field" id="username">
+            <input type="text" name="username" required>
+            <label>Username</label>
+            </div>
+            <div class="password_field" id="password">
+                <input type="password" name="password" required>
+                <label>Password</label>
+            </div>
+            <div>
+
+                <a href="1stpagehtml.html">
+                    <input type="submit" value="Login" name="login"/>
+                  </a>
+            </div>
+            <div>
+                <button class="signup_link">
+                <a href="registerpagehtml.html" class="Signup">  
+                    <!-- <button>Submit</button>   -->
+                    Signup?
+                  </a>
+            </div>
+        </form>
+    </div>
+    <div id="loginerror">
+        <p id="loginerror">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+
+<script src="loginpagejs.js"></script>   
+</body>
+</html>

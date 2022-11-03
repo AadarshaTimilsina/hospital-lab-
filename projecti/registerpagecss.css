@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  background-color: brown;
+  justify-content: space-between;
+}
+.centre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  border-color: black;
+  justify-content: space-between;
+}
+.centre h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  
+}
+.centre form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+div.Username_field{
+  position: relative;
+  margin-bottom: 20px;
+  height: 40px;
+}
+div.password_field{
+  margin-bottom: 5px;
+  height: 40px;
+}
+div .repet_password_field{
+  margin-bottom: 7px;
+
+}
+.signup_link{
+  color: red;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px 30px;
+  margin-bottom: 14px;
+}
+
+input[type=submit_link] {
+  width: 2%;
+  background-color: black;
+  color: white;
+  padding: 5px 9px;
+  /* margin: 0px 0; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form div.form-action-buttons{
+  text-align: right;
+}
+
+.login_btn{
+  color: red;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 1px 2px;
+}
+
+a{
+  padding: 10px;
+}

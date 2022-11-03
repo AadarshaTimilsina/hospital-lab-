@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SignUp Page</title>
+    <link rel="stylesheet" href="registerpagecss.css">
+</head>
+<body>
+  <div class="centre">
+    <h1>Signup Form</h1>
+    <form name="myform"  action="" method="post" onsubmit="return checkForm(this);">  
+        <div class="Username_field" id="username">
+          <label>Username</label>
+        <input type="text" name="username" >
+       
+        </div>
+        <div class="password_field" id="password">
+          <label>Password</label>
+            <input type="password" name="password" >
+            
+        </div>
+        <div class="repet_password_field" id="confirm_password">
+          <label>Confirm Password</label>
+          <input type="password" name="confirm_password" onkeyup='check()';>
+          <span id='message'></span>
+          
+      </div>
+        <div>
+            <input  type="submit" onclick="myFunction()" value="Signup" name="signup"/>
+        </div>
+     
+        
+        
+    </form>
+    <div class="link">
+      <a href="loginformhtml.html">
+        Click Here for login page
+   </a>
+    </div>
+</div>
+<script src="registerpagejs.js"></script>     
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: brown;
+    justify-content: space-between;
+}
+.centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    border-color: black;
+    justify-content: space-between;
+}
+.centre h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    
+}
+.centre image{
+    position: relative;
+    padding: 0 0 20px 0;
+}
+.centre form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+div.Username_field{
+    position: relative;
+    margin-bottom: 20px;
+    height: 40px;
+}
+div.password_field{
+    margin-bottom: 5px;
+    height: 40px;
+}
+.forgetpasword{
+    margin-bottom: 5px;
+}
+.signup_link{
+    color: red;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px 26px;
+    text-align: center;
+  }
+  .login_btn{
+    color: red;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px 26px;
+    display: flex;
+  }
+ 
+
+  /* for error msg */
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+#loginerror {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
+  #error-msg-second-line {
+    display: block;
+  }
+  /*error msg end */

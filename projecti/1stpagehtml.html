@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="1pagecss.css">
+</head>
+<body>
+    <h1 class="heading">Welcome to Laboratary Management System</h1>
+    <div class="navigationbar">
+        <a class="active" href="1stpagehtml.html">Add Patient Info</a>
+        <a href="viewpatienthtml.html">View Patient Info</a>
+        <a href="reportpagehtml.html">Report</a>
+    </div>
+    <form name="reportform" method="post" action="" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+         <div class="continer">
+           
+            <label> First name:  </label>      
+                <input type="text" name="firstname" id="firstname" /> <br> <br>
+                <label> Lastname:  </label>           
+                <input type="text" name="lastname" id="lastname" /> <br> <br> 
+                <label> Address: </label>         
+                <input type="text" name="lastname" /> <br> <br> 
+                <label> Age: </label>         
+                <input type="number" name="lastname" id="age" /> <br> <br>
+                <label> Phone Number: </label>         
+                <input type="number" name="lastname" /> <br> <br>
+                <label> Type of Checkup:  </label>         
+                <input type="text" name="checkuptype" id="checkuptype" /> <br> <br>
+                <label> Gender: </label> 
+                <input type="radio" id="radio1" name="radio" value="Male">
+                <label for="contactChoice1">Male</label>
+                <input type="radio" id="radio 2" name="radio" value="Female">
+                <label for="contactChoice2">Female</label><br> <br>
+                <label>
+                    DOB:
+                <input type="date" name="dob" />
+                </label><br> <br>
+                <div  class="form-action-buttons">
+                    <input onclick = "fun()" type="submit" value="Submit">
+                </div>
+        </div> 
+    </form>
+    <script src="1stpagejs.js"></script>
+</body>
+</html>
